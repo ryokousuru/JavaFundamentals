@@ -7,8 +7,29 @@ package com.fundamentals.java;
 public class Main {
 
     public static void main(String[] args) {
-        lesson5Examples();
+        //moreLesson6();
+        lesson6Examples();
+        //lesson5Examples();
         //houseExample();
+    }
+
+    public static void moreLesson6() {
+        Lesson6 myOtherLesson6 = new Lesson6();
+        myOtherLesson6.exampleBuilder("Spaghetti", 2);
+        myOtherLesson6.exampleChar();
+        myOtherLesson6.exampleEscape();
+    }
+
+    public static void lesson6Examples() {
+        Lesson6 myLesson6 = new Lesson6();
+        myLesson6.exampleCharAt();
+        myLesson6.exampleConcat(" has awesome donuts");
+        myLesson6.exampleEquals("LaMars");
+        String myLower = myLesson6.exampleLowercase();
+        System.out.println(myLower);
+        String myUpper = myLesson6.exampleUppercase();
+        System.out.println(myUpper);
+        myLesson6.exampleLength();
     }
 
     public static void lesson5Examples() {
