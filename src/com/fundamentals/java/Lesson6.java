@@ -8,6 +8,10 @@ public class Lesson6 {
 
     String myString = "LaMars"; //sets LaMars as variable for functions below to act upon
 
+    private void examplePrivate() {
+        System.out.println("This is a private method");
+    }
+
     //method shows string method for charAt
     public void exampleCharAt() {     //establishes method exampleCharAt
         char myChar = myString.charAt(4);  /*accesses the 5th character of the variable
