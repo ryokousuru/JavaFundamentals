@@ -21,7 +21,9 @@ public class Main {
     }  //end of the static block
 
     public static void main(String[] args) {
-        lesson15Example();
+        lesson17Example();
+        //lesson16Example();
+        //lesson15Example();
         //lesson14Example();
         //SUVExample();
         //TruckExample();
@@ -38,6 +40,26 @@ public class Main {
         //houseExample();
         //Lesson12Example();
     } //end main method
+
+    public static void lesson17Example() {
+        Lesson17 myLesson17 = new Lesson17();  //object instance of lesson 17
+        myLesson17.exampleArrayList1();         //so examples from lesson 17
+        myLesson17.exampleArrayList2();         //can be called upon
+        myLesson17.ExampleHashSet();
+        myLesson17.ExampleHashSet2();
+        myLesson17.ExampleHashMap();
+        myLesson17.ExampleHashMap();
+    }
+
+    public static void lesson16Example() {
+        Lesson16 myLesson16 = new Lesson16(); //object instance of Lesson 16
+        myLesson16.showEnum();
+        myLesson16.myFavoriteFlavor(Lesson16.IceCreamFlavors.PEANUT_BUTTER);
+        DaysOfTheWeek d1[] = DaysOfTheWeek.values();  //object for days of the week
+        for(DaysOfTheWeek day: d1) {
+            System.out.println(day + " at index " +day.ordinal());
+        }
+    }
 
     public static void lesson15Example() {
         int[] myKeys = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
@@ -65,7 +87,7 @@ public class Main {
 
         public static void Lab3() {
             Lab3 myLab3 = new Lab3();
-            myLab3.descriptionOfGrade();
+          //  myLab3.descriptionOfGrade();
             myLab3.divisibleByThree();
         }
 
