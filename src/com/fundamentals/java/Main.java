@@ -21,7 +21,8 @@ public class Main {
     }  //end of the static block
 
     public static void main(String[] args) {
-        lesson18Example();
+        Lab3Example();
+        //lesson18Example();
         //lesson17Example();
         //lesson16Example();
         //lesson15Example();
@@ -41,6 +42,14 @@ public class Main {
         //houseExample();
         //Lesson12Example();
     } //end main method
+
+    public static void Lab3Example() {
+        Lab3 myLab3 = new Lab3();
+        //myLab3.descriptionOfGrade();
+        String grade = myLab3.descriptionOfGrade();
+        System.out.println(grade);
+        myLab3.divideItByThree();
+    }
 
     public static void lesson18Example() {
         Lesson18 myLesson18 = new Lesson18();
@@ -90,12 +99,6 @@ public class Main {
             System.out.println("Block number was " + num);
             Lesson14.MyInnerClass test = new Lesson14.MyInnerClass();
             test.myInnerMethod();
-        }
-
-        public static void Lab3() {
-            Lab3 myLab3 = new Lab3();
-          //  myLab3.descriptionOfGrade();
-            myLab3.divisibleByThree();
         }
 
         public static void SUVExample() {
