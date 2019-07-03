@@ -39,6 +39,4 @@ public class Lesson18 {
             System.out.println("Finally the number did not do what it should have!");
         }
     } //the end of the method
-
-
 } //the end of the class
